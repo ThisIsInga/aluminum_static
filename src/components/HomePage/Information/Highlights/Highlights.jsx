@@ -1,4 +1,5 @@
 import style from './Highlights.module.css';
+import highlightsBuild from './../../../../../public/assets/Highlights/build.jpg';
 
 function Highlights() {
   return (
@@ -12,7 +13,7 @@ function Highlights() {
         </ul>
       </div>
       <div className={style.additinalHighlights}>
-        <img src='/assets/Highlights/build.jpg'/>
+        <img src={highlightsBuild}/>
         <div className={style.additinalHighlightsText}>
             <p>350+</p>
             <span>Объектов в ДФВО</span>

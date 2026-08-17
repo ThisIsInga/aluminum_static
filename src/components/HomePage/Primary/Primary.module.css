@@ -1,7 +1,7 @@
 .primary{
     max-width: 1250px;
     margin: 0 auto; 
-    background-image: url('./../../assets/primary/primary_builder.jpg');
+    background-image: url('./../../../../public/assets/primary/primary_builder.jpg');
     color: white;
 }
 

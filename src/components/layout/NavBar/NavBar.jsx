@@ -1,4 +1,8 @@
 import style from './NavBar.module.css';
+import companyLogo from './../../../../public/assets/primary/company.png'
+import mapLogo from './../../../../public/assets/primary/icons/map.png'
+import phoneCallLogo from './../../../../public/assets/primary/icons/phone-call.png'
+import emailLogo from './../../../../public/assets/primary/icons/email.png'
 
 function NavBar() {
   return (
@@ -6,7 +10,7 @@ function NavBar() {
       <div className={style.menu}>
         <div className={style.title}>
           <img 
-            src='/assets/primary/company.png'
+            src={companyLogo}
             alt="Логотип компании" 
             className={style.logo}
           />
@@ -16,7 +20,7 @@ function NavBar() {
         <div className={style.info}>
           <p className={style.infoItem}>
             <img 
-              src='/assets/primary/icons/map.png'
+              src={mapLogo}
               alt="Адрес" 
               className={style.icon}
             />
@@ -24,7 +28,7 @@ function NavBar() {
           </p>
           <p className={style.infoItem}>
             <img 
-              src='/assets/primary/icons/phone-call.png'
+              src={phoneCallLogo}
               alt="Телефон" 
               className={style.icon}
             />
@@ -32,7 +36,7 @@ function NavBar() {
           </p>
           <p className={style.infoItem}>
             <img 
-              src='/assets/primary/icons/email.png'
+              src={emailLogo}
               alt="Электронная почта" 
               className={style.icon}
             />

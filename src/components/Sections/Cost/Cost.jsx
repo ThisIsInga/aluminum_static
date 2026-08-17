@@ -1,6 +1,7 @@
 import style from './Cost.module.css';
 import NavBar from '../../layout/NavBar/NavBar.jsx';
 import Write from '../../layout/Write/Write.jsx';
+import costPlan from './../../../../public/assets/Cost/plan.jpg';
 
 function Cost() {
     return (
@@ -13,7 +14,7 @@ function Cost() {
                     <li>
                         <div>
                             Нарисуйте конструкцию
-                            <img src='/assets/Cost/plan.jpg' alt="Инструкция по рисованию конструкции" />
+                            <img src={costPlan} alt="Инструкция по рисованию конструкции" />
                         </div>
                     </li>
                     <li>Сфотографируйте или отсканируйте</li>

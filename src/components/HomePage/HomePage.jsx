@@ -7,6 +7,7 @@ import Info from '../HomePage/Information/Info.jsx'
 import Statistic from '../HomePage/Statistic/Statistic.jsx'
 import ContactInfo from '../HomePage/ContactInfo/ContactInfo.jsx'
 import Footer from '../layout/Footer/Footer.jsx'
+import NewTemplates from './../templates/new/NewTemplates.jsx';
 
 function HomePage() {
   const mainRef = useRef(null);
@@ -27,6 +28,7 @@ function HomePage() {
         <section ref={servicesRef}>
           <Services />
         </section>
+        <NewTemplates />
         <Sale id='sale'/>
         <section ref={infoRef}>
           <Info />

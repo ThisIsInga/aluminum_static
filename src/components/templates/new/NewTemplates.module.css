@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Zalando+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zalando+Sans:wght@600&display=swap');
+
+.newBackground {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    padding: 5%;
+}
+
+.video video {
+    width: 40%;
+    display: block;
+    box-shadow: rgb(182, 7, 7) 0px 0px 20px;
+}
+
+.text {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    flex-direction: column;
+    
+}
+
+.text h2 {
+    font-size: 3rem;
+    font-family: "Zalando Sans", sans-serif;
+    color: rgb(182, 7, 7);
+}
+
+.text p {
+    font-size: 2rem;
+    font-family: "Zalando Sans", sans-serif;
+}

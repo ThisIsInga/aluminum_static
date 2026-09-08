@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomePage from './components/HomePage/HomePage.jsx';
-import Door from './components/Sections/Door/Door.jsx'
-import Window from './components/Sections/Window/Window.jsx'
+import Door from './components/Sections/Door/Door.jsx';
+import Window from './components/Sections/Window/Window.jsx';
 import StainedGlasses from './components/Sections/StainedGlasses/StainedGlasses.jsx';
-import Sales from './components/Sections/Sales/Sales.jsx'
-import Product from './components/Product/Product.jsx'
-import Cost from './components/Sections/Cost/Cost.jsx'
+import Sales from './components/Sections/Sales/Sales.jsx';
+import Product from './components/Product/Product.jsx';
+import Cost from './components/Sections/Cost/Cost.jsx';
 
 function App() {
   return (

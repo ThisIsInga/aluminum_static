@@ -8,6 +8,10 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
 export default ({ images = [] }) => {  // Дефолтный пустой массив, если пропс не передан
+  if (!Array.isArray(images)) {
+    console.warn('Swiper: images prop should be an array');
+    return null;
+  }
   return (
     <div className={style.swiperContainer}>
       <Swiper

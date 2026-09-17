@@ -1,4 +1,5 @@
 import testWindow from './../../../../public/assets/New/test_window.mp4';
+import windowVideo from './../../../../public/assets/New/window.mp4';
 import style from './NewTemplates.module.css';
 import { Link } from 'react-router-dom';
 
@@ -15,7 +16,15 @@ function New () {
             </div>
             <div className={style.text}>
                 <h2>НОВИНКА</h2>
-                <p>Скрытые москитыне сетки</p>
+                <p>Скрытые москитные сетки</p>
+            </div>
+            <div className={style.video}>
+                <video 
+                    src={windowVideo}
+                    autoPlay
+                    loop
+                    muted
+                />
             </div>
        </section> 
     )

@@ -1,12 +1,15 @@
 import testWindow from './../../../../public/assets/New/test_window.mp4';
 import windowVideo from './../../../../public/assets/New/window.mp4';
-import Card from '../../layout/Card/Card.jsx';
+import { oneProduct } from '../../data/oneProduct';
+import Card from './../../layout/Card/Card.jsx';
 import style from './NewTemplates.module.css';
 import { Link } from 'react-router-dom';
 
 function New () {
+    const product = oneProduct[0];
+
     return(
-        <Link to="/sale">
+        <Link to={`/product/${product.id}`} state={{ product }}>
             <section className={style.newBackground}>
                 <div className={style.video}>
                     <video 
